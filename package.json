@@ -4,16 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "swagger-autogen": "node swagger.js"
   },
   "author": "Kimsong SAO",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.11.2",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.5.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "swagger-autogen": "^2.23.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "validator": "^13.11.0",
+    "xss-clean": "^0.1.4"
   }
 }

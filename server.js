@@ -1,7 +1,35 @@
-const express = require('express');
-const logger = require('morgan');
-const bodyParser = require('body-parser');
-const app = express();
+const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+dotenv.config({
+    path: './.env'
+});
 
-app.use(logger('dev'));
-app.use(bodyParser.urlencoded({ extended: false }));
+process.on('uncaughtException', err => {
+    console.log('UNCAUGHT EXCEPTION!!! shutting down...');
+    console.log(err.name, err.message);
+    process.exit(1);
+});
+const app = require('./app');
+const database = process.env.DATABASE_URI;
+
+// Connect the database
+mongoose.connect(database, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+}).then(con => {
+    console.log('Connection Successfully!');
+});
+
+// Start the server
+const port = process.env.PORT;
+app.listen(port, () => {
+    console.log(`Open with browser http://localhost:${port}/api-docs/`);
+});
+
+process.on('unhandledRejection', err => {
+    console.log('UNHANDLED REJECTION!!!  shutting down ...');
+    console.log(err.name, err.message);
+    server.close(() => {
+        process.exit(1);
+    });
+});
