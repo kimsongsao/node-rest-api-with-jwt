@@ -1,0 +1,94 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "sku": "8840000000001",
+            "name": "Ultraboost Light Running Shoes",
+            "description": "Experience epic energy with the new Ultraboost Light, our lightest Ultraboost ever. The magic lies in the Light BOOST midsole, a new generation of adidas BOOST. Its unique molecule design achieves the lightest BOOST foam to date. With hundreds of BOOST capsules bursting with energy and ultimate cushioning and comfort, some feet really can have it all.",
+            "price": 190,
+            "image": "https://raw.githubusercontent.com/kimsongsao/node-rest-api-with-jwt/main/images/product1.webp",
+            "rating": 4.7
+        },
+        {
+            "id": "2",
+            "sku": "8840000000002",
+            "name": "Colorblock Track Jacket",
+            "description": "Made with 100% recycled materials, this product represent just one our solutions to help end plastic waste.",
+            "price": 90,
+            "image": "https://raw.githubusercontent.com/kimsongsao/node-rest-api-with-jwt/main/images/product2.webp",
+            "rating": 4.6
+        },
+        {
+            "id": "3",
+            "sku": "8840000000003",
+            "name": "Own the Run Tee",
+            "description": "Whether you're hitting the pavement with your community or on your own, there's nothing quite like the joyful rush of a runner's high. One thing's for sure: comfort and support is paramount in maximizing your daily run.",
+            "price": 35,
+            "image": "https://raw.githubusercontent.com/kimsongsao/node-rest-api-with-jwt/main/images/product3.webp",
+            "rating": 4.8
+        },
+        {
+            "id": "4",
+            "sku": "8840000000004",
+            "name": "Daily 3.0 Shoes",
+            "description": "A fresh take on a classic, these adidas shoes blend a heritage feel with modern materials and design. Your walk across campus has never looked or felt this good.",
+            "price": 65,
+            "image": "https://raw.githubusercontent.com/kimsongsao/node-rest-api-with-jwt/main/images/product4.webp",
+            "rating": 4.7
+        },
+        {
+            "id": "5",
+            "sku": "8840000000005",
+            "name": "Predator Accuracy.1 Low Firm Ground Soccer Cleats",
+            "description": "Lace up and feel ready for action in the Predator Accuracy.1 Low Firm Ground Cleats. With a legacy of supporting players when it matters the most, these cleats are designed to give you the confidence to create game-defining moments.",
+            "price": 250,
+            "image": "https://raw.githubusercontent.com/kimsongsao/node-rest-api-with-jwt/main/images/product5.webp",
+            "rating": 4.8
+        },
+        {
+            "id": "6",
+            "sku": "8840000000006",
+            "name": "Eco Over Ego Relaxed Hat",
+            "description": "",
+            "price": 30,
+            "image": "https://raw.githubusercontent.com/kimsongsao/node-rest-api-with-jwt/main/images/product6.webp",
+            "rating": 4.7
+        },
+        {
+            "id": "7",
+            "sku": "8840000000007",
+            "name": "Steel Bottle 600 ML",
+            "description": "",
+            "price": 24,
+            "image": "https://raw.githubusercontent.com/kimsongsao/node-rest-api-with-jwt/main/images/product7.webp",
+            "rating": 4.7
+        },
+        {
+            "id": "8",
+            "sku": "8840000000008",
+            "name": "AEROREADY Designed to Move Feelready Sport Tee",
+            "description": "From morning workout routines to afternoon track runs, this adidas t-shirt keeps you moving in comfort. Moisture-managing AEROREADY ensures you stay dry when you're on the go. The FreeLift design gives you full a range of motion and a stay-put fit during overhead movements. A longer back hem adds extra coverage.",
+            "price": 25,
+            "image": "https://raw.githubusercontent.com/kimsongsao/node-rest-api-with-jwt/main/images/product8.webp",
+            "rating": 4.7
+        },
+        {
+            "id": "9",
+            "sku": "8840000000009",
+            "name": "Train Essentials Feelready Training Tee",
+            "description": "From push press to push-ups, move through a full range of motion in this adidas training t-shirt. It's cut to allow your arms to move freely overhead. Breathable fabric and moisture-absorbing AEROREADY keep you dry and comfortable as your heart rate rises.",
+            "price": 25,
+            "image": "https://raw.githubusercontent.com/kimsongsao/node-rest-api-with-jwt/main/images/product9.webp",
+            "rating": 4.6
+        },
+        {
+            "id": "10",
+            "sku": "8840000000010",
+            "name": "Ultraboost 5.0 DNA Mighty Ducks Hawks Shoes",
+            "description": "Any time you're on your feet is a good time to wear the adidas Ultraboost. These juniors' shoes pack all the performance techs that runners love into a design you'll want to wear outside of gym class. Beyond looks, its superpower is comfort â€“ from the soft feel of the adidas PRIMEKNIT upper to the incredible energy return of BOOST.",
+            "price": 160,
+            "image": "https://raw.githubusercontent.com/kimsongsao/node-rest-api-with-jwt/main/images/product10.webp",
+            "rating": 4.6
+        }
+    ]
+}
